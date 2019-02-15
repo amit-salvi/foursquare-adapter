@@ -1,5 +1,3 @@
 com\foursquare\adapter\constants\FoursquareAdapterConstants.class
-com\foursquare\adapter\service\PropertyServiceForJasyptSimple.class
-com\foursquare\adapter\service\PropertyService.class
-com\foursquare\adapter\service\PropertyServiceWithoutJasypt.class
 com\foursquare\adapter\config\JasyptEncryptionConfig.class
+com\foursquare\adapter\service\PropertyService.class

@@ -25,7 +25,7 @@ public class RecommendedPlacesControllerTest {
     public void canRetrieveByIdWhenExists() throws Exception {
         // given
         BDDMockito.given(controller.getRecommendedPlaces("LON"))
-                .willReturn("London Museum");
+                .willReturn(null);
 
         // when
         ResponseEntity responseEntity = restTemplate.getForEntity("/places/LON", String.class);

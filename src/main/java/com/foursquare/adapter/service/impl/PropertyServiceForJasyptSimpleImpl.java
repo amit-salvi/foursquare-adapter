@@ -1,6 +1,6 @@
-package com.foursquare.adapter.service;
+package com.foursquare.adapter.service.impl;
 
-import com.fasterxml.jackson.databind.annotation.JsonAppend;
+import com.foursquare.adapter.service.PropertyService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import static com.foursquare.adapter.constants.FoursquareAdapterConstants.PROD_P
 
 @Service("PropertyService")
 @Profile({DEV_PROFILE, PROD_PROFILE})
-public class PropertyServiceForJasyptSimple implements PropertyService {
+public class PropertyServiceForJasyptSimpleImpl implements PropertyService {
 
     @Value("${clientid.property}")
     private String clientId;
