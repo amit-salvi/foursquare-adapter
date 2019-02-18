@@ -1,0 +1,75 @@
+{
+  "venues" : [
+    {
+      "name" : "Central Park",
+      "location" : {
+        "address" : "59th St to 110th St",
+        "crossStreet" : "5th Ave to Central Park West",
+        "lat" : 40.78408342593807,
+        "lng" : -73.96485328674316,
+        "labeledLatLngs" : [ {
+          "label" : "display",
+          "lat" : 40.78408342593807,
+          "lng" : -73.96485328674316
+        } ],
+        "postalCode" : "10028",
+        "cc" : "US",
+        "city" : "New York",
+        "state" : "NY",
+        "country" : "United States",
+        "formattedAddress" : [ "59th St to 110th St (5th Ave to Central Park West)", "New York, NY 10028", "United States" ],
+        "neighborhood" : null
+      },
+      "categories" : [ {
+        "id" : "4bf58dd8d48988d163941735",
+        "name" : "Park",
+        "pluralName" : "Parks",
+        "shortName" : "Park",
+        "icon" : {
+          "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+          "suffix" : ".png"
+        },
+        "primary" : true
+      } ],
+      "photos" : {
+        "count" : 0,
+        "groups" : [ ]
+      }
+    }, {
+      "name" : "Brooklyn Bridge Park",
+      "location" : {
+        "address" : "Main St",
+        "crossStreet" : "Plymouth St",
+        "lat" : 40.702282,
+        "lng" : -73.996456,
+        "labeledLatLngs" : [ {
+          "label" : "display",
+          "lat" : 40.702282,
+          "lng" : -73.996456
+        } ],
+        "postalCode" : "11201",
+        "cc" : "US",
+        "city" : "Brooklyn",
+        "state" : "NY",
+        "country" : "United States",
+        "formattedAddress" : [ "Main St (Plymouth St)", "Brooklyn, NY 11201", "United States" ],
+        "neighborhood" : "DUMBO, Brooklyn, NY"
+      },
+      "categories" : [ {
+        "id" : "4bf58dd8d48988d163941735",
+        "name" : "Park",
+        "pluralName" : "Parks",
+        "shortName" : "Park",
+        "icon" : {
+          "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+          "suffix" : ".png"
+        },
+        "primary" : true
+      } ],
+      "photos" : {
+        "count" : 0,
+        "groups" : [ ]
+      }
+    }
+  ]
+}

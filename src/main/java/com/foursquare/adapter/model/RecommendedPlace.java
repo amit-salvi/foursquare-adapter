@@ -1,9 +1,12 @@
 package com.foursquare.adapter.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class RecommendedPlace {
 
     private Meta meta;
-    private Response response;
+    private FoursquareResponse response;
 
     public Meta getMeta() {
         return meta;
@@ -13,11 +16,11 @@ public class RecommendedPlace {
         this.meta = meta;
     }
 
-    public Response getResponse() {
+    public FoursquareResponse getResponse() {
         return response;
     }
 
-    public void setResponse(Response response) {
+    public void setResponse(FoursquareResponse response) {
         this.response = response;
     }
 

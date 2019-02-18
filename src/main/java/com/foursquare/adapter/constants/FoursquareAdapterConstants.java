@@ -8,4 +8,6 @@ public class FoursquareAdapterConstants {
 
     public static final String TEST_PROFILE = "TEST";
 
+    public static final String RECOMMENDED_PLACE_API = "https://api.foursquare.com/v2/venues/explore";
+
 }

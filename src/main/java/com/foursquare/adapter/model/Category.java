@@ -1,7 +1,12 @@
 package com.foursquare.adapter.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Category {
 
+    @JsonIgnore
     private String id;
     private String name;
     private String pluralName;

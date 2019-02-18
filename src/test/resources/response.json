@@ -1,0 +1,1025 @@
+{
+  "venues" : [ {
+    "name" : "Central Park",
+    "location" : {
+      "address" : "59th St to 110th St",
+      "crossStreet" : "5th Ave to Central Park West",
+      "lat" : 40.78408342593807,
+      "lng" : -73.96485328674316,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.78408342593807,
+        "lng" : -73.96485328674316
+      } ],
+      "postalCode" : "10028",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "59th St to 110th St (5th Ave to Central Park West)", "New York, NY 10028", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Brooklyn Bridge Park",
+    "location" : {
+      "address" : "Main St",
+      "crossStreet" : "Plymouth St",
+      "lat" : 40.702282,
+      "lng" : -73.996456,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.702282,
+        "lng" : -73.996456
+      } ],
+      "postalCode" : "11201",
+      "cc" : "US",
+      "city" : "Brooklyn",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Main St (Plymouth St)", "Brooklyn, NY 11201", "United States" ],
+      "neighborhood" : "DUMBO, Brooklyn, NY"
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Bryant Park",
+    "location" : {
+      "address" : "E 42nd St",
+      "crossStreet" : "btwn 5th & 6th Ave",
+      "lat" : 40.75378489598108,
+      "lng" : -73.98383223928617,
+      "labeledLatLngs" : null,
+      "postalCode" : "10018",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "E 42nd St (btwn 5th & 6th Ave)", "New York, NY 10018", "United States" ],
+      "neighborhood" : "Midtown"
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Metropolitan Museum of Art",
+    "location" : {
+      "address" : "1000 5th Ave",
+      "crossStreet" : "btwn E 80th & E 84th St",
+      "lat" : 40.77972902126812,
+      "lng" : -73.96341562271118,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.77972902126812,
+        "lng" : -73.96341562271118
+      } ],
+      "postalCode" : "10028",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1000 5th Ave (btwn E 80th & E 84th St)", "New York, NY 10028", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d18f941735",
+      "name" : "Art Museum",
+      "pluralName" : "Art Museums",
+      "shortName" : "Art Museum",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Minskoff Theatre",
+    "location" : {
+      "address" : "1515 Broadway",
+      "crossStreet" : "at W 45th St",
+      "lat" : 40.75738906224092,
+      "lng" : -73.98553701970972,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.75738906224092,
+        "lng" : -73.98553701970972
+      } ],
+      "postalCode" : "10036",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1515 Broadway (at W 45th St)", "New York, NY 10036", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d137941735",
+      "name" : "Theater",
+      "pluralName" : "Theaters",
+      "shortName" : "Theater",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "High Line",
+    "location" : {
+      "address" : "btwn Gansevoort & W 34th St",
+      "crossStreet" : "btwn 10th & 12th Ave",
+      "lat" : 40.746825,
+      "lng" : -74.005507,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.746825,
+        "lng" : -74.005507
+      } ],
+      "postalCode" : "10011",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "btwn Gansevoort & W 34th St (btwn 10th & 12th Ave)", "New York, NY 10011", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Gantry Plaza State Park",
+    "location" : {
+      "address" : "474 48th Ave",
+      "crossStreet" : "at Center Blvd",
+      "lat" : 40.74655794031174,
+      "lng" : -73.9580512046814,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.74655794031174,
+        "lng" : -73.9580512046814
+      } ],
+      "postalCode" : "11109",
+      "cc" : "US",
+      "city" : "Queens",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "474 48th Ave (at Center Blvd)", "Long Island City, NY 11109", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "5bae9231bedf3950379f89d0",
+      "name" : "State / Provincial Park",
+      "pluralName" : "State / Provincial Parks",
+      "shortName" : "State / Provincial Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "St. Patrick's Cathedral",
+    "location" : {
+      "address" : "14 E 51st St",
+      "crossStreet" : "at 5th Ave",
+      "lat" : 40.7583584690861,
+      "lng" : -73.97582607482036,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.7583584690861,
+        "lng" : -73.97582607482036
+      } ],
+      "postalCode" : "10022",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "14 E 51st St (at 5th Ave)", "New York, NY 10022", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d132941735",
+      "name" : "Church",
+      "pluralName" : "Churches",
+      "shortName" : "Church",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "West Side Highway Running Path",
+    "location" : {
+      "address" : "Hudson River Greenway",
+      "crossStreet" : "btwn Battery Park & W 72nd St",
+      "lat" : 40.73255155774,
+      "lng" : -74.01057958602905,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.73255155774,
+        "lng" : -74.01057958602905
+      } ],
+      "postalCode" : "10282",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Hudson River Greenway (btwn Battery Park & W 72nd St)", "New York, NY 10282", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d159941735",
+      "name" : "Trail",
+      "pluralName" : "Trails",
+      "shortName" : "Trail",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Equinox West 50th Street",
+    "location" : {
+      "address" : "1633 Broadway",
+      "crossStreet" : "at Paramount Plz",
+      "lat" : 40.761912,
+      "lng" : -73.984268,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.761912,
+        "lng" : -73.984268
+      } ],
+      "postalCode" : "10019",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1633 Broadway (at Paramount Plz)", "New York, NY 10019", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d176941735",
+      "name" : "Gym",
+      "pluralName" : "Gyms",
+      "shortName" : "Gym",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Hudson River Park",
+    "location" : {
+      "address" : "West St",
+      "crossStreet" : "btwn Battery Pl & W 59th St",
+      "lat" : 40.733227002381305,
+      "lng" : -74.0104541746021,
+      "labeledLatLngs" : null,
+      "postalCode" : "10011",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "West St (btwn Battery Pl & W 59th St)", "New York, NY 10011", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Aire Ancient Baths",
+    "location" : {
+      "address" : "88 Franklin St",
+      "crossStreet" : "at Church St",
+      "lat" : 40.718141411641234,
+      "lng" : -74.00494121234846,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.718141411641234,
+        "lng" : -74.00494121234846
+      } ],
+      "postalCode" : "10013",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "88 Franklin St (at Church St)", "New York, NY 10013", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d1ed941735",
+      "name" : "Spa",
+      "pluralName" : "Spas",
+      "shortName" : "Spa",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/spa_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Washington Square Park",
+    "location" : {
+      "address" : "W 4th St",
+      "crossStreet" : "btwn MacDougal St & University Pl",
+      "lat" : 40.73081579656163,
+      "lng" : -73.9974582195282,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.73081579656163,
+        "lng" : -73.9974582195282
+      } ],
+      "postalCode" : "10012",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "W 4th St (btwn MacDougal St & University Pl)", "New York, NY 10012", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Strand Bookstore",
+    "location" : {
+      "address" : "828 Broadway",
+      "crossStreet" : "at E 12th St",
+      "lat" : 40.73314000684355,
+      "lng" : -73.99091161094675,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.73314000684355,
+        "lng" : -73.99091161094675
+      } ],
+      "postalCode" : "10003",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "828 Broadway (at E 12th St)", "New York, NY 10003", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d114951735",
+      "name" : "Bookstore",
+      "pluralName" : "Bookstores",
+      "shortName" : "Bookstore",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/bookstore_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Brooklyn Bridge",
+    "location" : {
+      "address" : "Brooklyn Bridge",
+      "crossStreet" : null,
+      "lat" : 40.70596749893083,
+      "lng" : -73.99670720100403,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.70596749893083,
+        "lng" : -73.99670720100403
+      } ],
+      "postalCode" : "10038",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Brooklyn Bridge", "New York, NY 10038", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d1df941735",
+      "name" : "Bridge",
+      "pluralName" : "Bridges",
+      "shortName" : "Bridge",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Astor Wines & Spirits",
+    "location" : {
+      "address" : "399 Lafayette St",
+      "crossStreet" : "at E 4th St",
+      "lat" : 40.727984051970246,
+      "lng" : -73.99304720778368,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.727984051970246,
+        "lng" : -73.99304720778368
+      } ],
+      "postalCode" : "10003",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "399 Lafayette St (at E 4th St)", "New York, NY 10003", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d119951735",
+      "name" : "Wine Shop",
+      "pluralName" : "Wine Shops",
+      "shortName" : "Wine Shop",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_wineshop_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Conservatory Garden",
+    "location" : {
+      "address" : "1231 5th Ave",
+      "crossStreet" : "at 105th St",
+      "lat" : 40.793531,
+      "lng" : -73.952032,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.793531,
+        "lng" : -73.952032
+      } ],
+      "postalCode" : "10029",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1231 5th Ave (at 105th St)", "New York, NY 10029", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d15a941735",
+      "name" : "Garden",
+      "pluralName" : "Gardens",
+      "shortName" : "Garden",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Union Square Greenmarket",
+    "location" : {
+      "address" : "1 Union Sq W",
+      "crossStreet" : "btwn 15th & 17th St",
+      "lat" : 40.736421806907515,
+      "lng" : -73.9904435930639,
+      "labeledLatLngs" : null,
+      "postalCode" : "10003",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1 Union Sq W (btwn 15th & 17th St)", "New York, NY 10003", "United States" ],
+      "neighborhood" : "Union Square"
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d1fa941735",
+      "name" : "Farmers Market",
+      "pluralName" : "Farmers Markets",
+      "shortName" : "Farmer's Market",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_farmersmarket_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Lincoln Center for the Performing Arts",
+    "location" : {
+      "address" : "70 Lincoln Center Plz",
+      "crossStreet" : "btwn Columbus & 10th Ave",
+      "lat" : 40.772299740203685,
+      "lng" : -73.98314928265228,
+      "labeledLatLngs" : null,
+      "postalCode" : "10023",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "70 Lincoln Center Plz (btwn Columbus & 10th Ave)", "New York, NY 10023", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d1f2931735",
+      "name" : "Performing Arts Venue",
+      "pluralName" : "Performing Arts Venues",
+      "shortName" : "Performing Arts",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Murray's Cheese",
+    "location" : {
+      "address" : "254 Bleecker St",
+      "crossStreet" : "at Cornelia St",
+      "lat" : 40.73100494148146,
+      "lng" : -74.00291557226433,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.73100494148146,
+        "lng" : -74.00291557226433
+      } ],
+      "postalCode" : "10014",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "254 Bleecker St (at Cornelia St)", "New York, NY 10014", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d11e951735",
+      "name" : "Cheese Shop",
+      "pluralName" : "Cheese Shops",
+      "shortName" : "Cheese Shop",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_cheese_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Madison Square Park",
+    "location" : {
+      "address" : "Madison Ave",
+      "crossStreet" : "btwn E 23rd & E 26th St",
+      "lat" : 40.74226204193276,
+      "lng" : -73.98800611495972,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.74226204193276,
+        "lng" : -73.98800611495972
+      } ],
+      "postalCode" : "10010",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Madison Ave (btwn E 23rd & E 26th St)", "New York, NY 10010", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Top of the Rock Observation Deck",
+    "location" : {
+      "address" : "30 Rockefeller Plz",
+      "crossStreet" : "btwn 5th & 6th Ave",
+      "lat" : 40.759095065214055,
+      "lng" : -73.97935153748539,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.759095065214055,
+        "lng" : -73.97935153748539
+      } ],
+      "postalCode" : "10112",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "30 Rockefeller Plz (btwn 5th & 6th Ave)", "New York, NY 10112", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d165941735",
+      "name" : "Scenic Lookout",
+      "pluralName" : "Scenic Lookouts",
+      "shortName" : "Scenic Lookout",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Riverside Park",
+    "location" : {
+      "address" : "Riverside Dr",
+      "crossStreet" : "btwn W 59th St & St. Clair Pl",
+      "lat" : 40.806809433439135,
+      "lng" : -73.96865129470825,
+      "labeledLatLngs" : null,
+      "postalCode" : "10025",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Riverside Dr (btwn W 59th St & St. Clair Pl)", "New York, NY 10025", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Metropolitan Opera",
+    "location" : {
+      "address" : "70 Lincoln Center Plz",
+      "crossStreet" : "at Columbus Ave & W 64th St",
+      "lat" : 40.77274188001071,
+      "lng" : -73.9844012260437,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.77274188001071,
+        "lng" : -73.9844012260437
+      } ],
+      "postalCode" : "10023",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "70 Lincoln Center Plz (at Columbus Ave & W 64th St)", "New York, NY 10023", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d136941735",
+      "name" : "Opera House",
+      "pluralName" : "Opera Houses",
+      "shortName" : "Opera House",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_operahouse_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "David H. Koch Theater",
+    "location" : {
+      "address" : "Lincoln Center Plaza",
+      "crossStreet" : "at W 63rd St & Columbus Ave",
+      "lat" : 40.772292228782284,
+      "lng" : -73.9832624208871,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.772292228782284,
+        "lng" : -73.9832624208871
+      } ],
+      "postalCode" : "10023",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "Lincoln Center Plaza (at W 63rd St & Columbus Ave)", "New York, NY 10023", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d137941735",
+      "name" : "Theater",
+      "pluralName" : "Theaters",
+      "shortName" : "Theater",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Radio City Music Hall",
+    "location" : {
+      "address" : "1260 Avenue of the Americas",
+      "crossStreet" : "at W 50th St",
+      "lat" : 40.75983498299141,
+      "lng" : -73.9800099465656,
+      "labeledLatLngs" : null,
+      "postalCode" : "10020",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1260 Avenue of the Americas (at W 50th St)", "New York, NY 10020", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "5032792091d4c4b30a586d5c",
+      "name" : "Concert Hall",
+      "pluralName" : "Concert Halls",
+      "shortName" : "Concert Hall",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Los Tacos No. 1",
+    "location" : {
+      "address" : "229 W 43rd St",
+      "crossStreet" : "btwn 7th & 8th Ave",
+      "lat" : 40.75713361630251,
+      "lng" : -73.98753586979832,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.75713361630251,
+        "lng" : -73.98753586979832
+      } ],
+      "postalCode" : "10036",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "229 W 43rd St (btwn 7th & 8th Ave)", "New York, NY 10036", "United States" ],
+      "neighborhood" : "Theater District"
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d151941735",
+      "name" : "Taco Place",
+      "pluralName" : "Taco Places",
+      "shortName" : "Tacos",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/food/taco_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Carl Schurz Park",
+    "location" : {
+      "address" : "599 E 86th St",
+      "crossStreet" : "at East End Ave",
+      "lat" : 40.77511823969361,
+      "lng" : -73.94376326618595,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.77511823969361,
+        "lng" : -73.94376326618595
+      } ],
+      "postalCode" : "10028",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "599 E 86th St (at East End Ave)", "New York, NY 10028", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "The Public Theater",
+    "location" : {
+      "address" : "425 Lafayette St",
+      "crossStreet" : "btwn Astor Pl & E 4th St",
+      "lat" : 40.72916880904384,
+      "lng" : -73.99207037967628,
+      "labeledLatLngs" : [ {
+        "label" : "display",
+        "lat" : 40.72916880904384,
+        "lng" : -73.99207037967628
+      } ],
+      "postalCode" : "10003",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "425 Lafayette St (btwn Astor Pl & E 4th St)", "New York, NY 10003", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d137941735",
+      "name" : "Theater",
+      "pluralName" : "Theaters",
+      "shortName" : "Theater",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  }, {
+    "name" : "Fort Tryon Park",
+    "location" : {
+      "address" : "1 Margaret Corbin Dr",
+      "crossStreet" : null,
+      "lat" : 40.86144880322704,
+      "lng" : -73.93299413788274,
+      "labeledLatLngs" : null,
+      "postalCode" : "10040",
+      "cc" : "US",
+      "city" : "New York",
+      "state" : "NY",
+      "country" : "United States",
+      "formattedAddress" : [ "1 Margaret Corbin Dr", "New York, NY 10040", "United States" ],
+      "neighborhood" : null
+    },
+    "categories" : [ {
+      "id" : "4bf58dd8d48988d163941735",
+      "name" : "Park",
+      "pluralName" : "Parks",
+      "shortName" : "Park",
+      "icon" : {
+        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+        "suffix" : ".png"
+      },
+      "primary" : true
+    } ],
+    "photos" : {
+      "count" : 0,
+      "groups" : [ ]
+    }
+  } ]
+}

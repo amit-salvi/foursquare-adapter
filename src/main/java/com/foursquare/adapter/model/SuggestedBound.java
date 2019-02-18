@@ -1,5 +1,8 @@
 package com.foursquare.adapter.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SuggestedBound {
     private LabeledLatLng ne;
     private LabeledLatLng sw;

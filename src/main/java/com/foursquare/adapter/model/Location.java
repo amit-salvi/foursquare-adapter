@@ -1,5 +1,8 @@
 package com.foursquare.adapter.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Location {
 
     private String address;
@@ -7,12 +10,21 @@ public class Location {
     private Double lat;
     private Double lng;
     private LabeledLatLng[] labeledLatLngs;
-    private String postCode;
+    private String postalCode;
     private String cc;
     private String city;
     private String state;
     private String country;
     private String[] formattedAddress;
+    private String neighborhood;
+
+    public String getNeighborhood() {
+        return neighborhood;
+    }
+
+    public void setNeighborhood(String neighborhood) {
+        this.neighborhood = neighborhood;
+    }
 
     public String getAddress() {
         return address;
@@ -54,12 +66,12 @@ public class Location {
         this.labeledLatLngs = labeledLatLngs;
     }
 
-    public String getPostCode() {
-        return postCode;
+    public String getPostalCode() {
+        return postalCode;
     }
 
-    public void setPostCode(String postCode) {
-        this.postCode = postCode;
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 
     public String getCc() {
