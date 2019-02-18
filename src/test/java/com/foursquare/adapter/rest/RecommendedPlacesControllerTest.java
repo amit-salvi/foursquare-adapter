@@ -43,32 +43,32 @@ public class RecommendedPlacesControllerTest {
     public void testRestResponseWhenSuccess() throws Exception {
         // given
         ResponseEntity responseEntity = new ResponseEntity<>(jsonResponse(), HttpStatus.OK);
-        given(controller.getRecommendedPlaces("london"))
+        given(controller.getRecommendedPlaces("london", "food"))
                 .willReturn(responseEntity);
 
         // when
-        ResponseEntity response = restTemplate.getForEntity("/places/london", Response.class);
+        ResponseEntity response = restTemplate.getForEntity("/places/london?category=food", Response.class);
 
         // then
         assertNotNull(response);
         assertEquals(response.getStatusCode().getReasonPhrase(), "OK");
-        verify(controller, times(1)).getRecommendedPlaces("london");
+        verify(controller, times(1)).getRecommendedPlaces("london", "food");
     }
 
     @Test
     public void testRestResonseWhenFailure() throws Exception {
         // given
         ResponseEntity mockedResponse = new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
-        given(controller.getRecommendedPlaces("123"))
+        given(controller.getRecommendedPlaces("123", "123"))
                 .willReturn(mockedResponse);
 
         // when
-        ResponseEntity responseEntity = restTemplate.getForEntity("/places/123", Response.class);
+        ResponseEntity responseEntity = restTemplate.getForEntity("/places/123?category=123", Response.class);
 
         // then
         assertNotNull(responseEntity);
         assertEquals("Bad Request", responseEntity.getStatusCode().getReasonPhrase());
-        verify(controller, times(1)).getRecommendedPlaces("123");;
+        verify(controller, times(1)).getRecommendedPlaces("123", "123");;
     }
 
     @Test

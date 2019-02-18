@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
@@ -31,15 +28,15 @@ public class RecommendedPlacesController {
     PropertyService propertyService;
 
     @RequestMapping(method = RequestMethod.GET, produces = { "application/json" }, path = "/{place}")
-    public ResponseEntity getRecommendedPlaces(@PathVariable("place") String place)
+    public ResponseEntity getRecommendedPlaces(@PathVariable("place") String place, @RequestParam("category") String category)
             throws FoursquareException {
 
-        FoursquareService service = (p) -> {
+        FoursquareService service = (p, q) -> {
 
             RecommendedPlace recommendedPlace;
             try{
                 recommendedPlace = restTemplate.getForObject(FoursquareService.formUrl(p,
-                        propertyService.getClientId(), propertyService.getClientSecret()), RecommendedPlace.class);
+                        propertyService.getClientId(), propertyService.getClientSecret(), q), RecommendedPlace.class);
             } catch (HttpClientErrorException e) {
                 throw new FoursquareException(e.getStatusCode(), e.getStatusText(), e.getResponseHeaders(), e);
             } catch (HttpServerErrorException e) {
@@ -48,13 +45,13 @@ public class RecommendedPlacesController {
             return recommendedPlace;
         };
 
-        return getResponseEntity(place, service);
+        return getResponseEntity(place, service, category);
     }
 
-    private ResponseEntity getResponseEntity(@PathVariable("place") String place, FoursquareService service) {
+    private ResponseEntity getResponseEntity(String place, FoursquareService service, String category) {
         RecommendedPlace recommendedPlace;
         try {
-            recommendedPlace = service.getRecommendedPlaces(place);
+            recommendedPlace = service.getRecommendedPlaces(place, category);
         } catch (FoursquareException e) {
             return new ResponseEntity(e.getStatusText(), e.getResponseHeaders(), e.getStatusCode());
         }

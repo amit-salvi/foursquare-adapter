@@ -13,9 +13,9 @@ public interface FoursquareService {
 
     final ZonedDateTime now8 = ZonedDateTime.now();
 
-    public RecommendedPlace getRecommendedPlaces(String place) throws FoursquareException;
+    public RecommendedPlace getRecommendedPlaces(String place, String category) throws FoursquareException;
 
-    static String formUrl(String place, String clientId, String clientSecret) {
+    static String formUrl(String place, String clientId, String clientSecret, String category) {
         return new StringBuilder()
                 .append(FoursquareAdapterConstants.RECOMMENDED_PLACE_API)
                 .append("?near=")
@@ -26,6 +26,7 @@ public interface FoursquareService {
                 .append(clientSecret)
                 .append("&v=")
                 .append(formatter.format(now8))
+                .append(category != null ? "&section="+category : "")
                 .toString();
 
     }

@@ -1,1025 +1,1885 @@
 {
-  "venues" : [ {
-    "name" : "Central Park",
-    "location" : {
-      "address" : "59th St to 110th St",
-      "crossStreet" : "5th Ave to Central Park West",
-      "lat" : 40.78408342593807,
-      "lng" : -73.96485328674316,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.78408342593807,
-        "lng" : -73.96485328674316
-      } ],
-      "postalCode" : "10028",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "59th St to 110th St (5th Ave to Central Park West)", "New York, NY 10028", "United States" ],
-      "neighborhood" : null
+  "meta": {
+    "code": 200,
+    "requestId": "5c6a8f4ddd57977bd55ca006"
+  },
+  "response": {
+    "suggestedFilters": {
+      "header": "Tap to show:",
+      "filters": [
+        {
+          "name": "Open now",
+          "key": "openNow"
+        },
+        {
+          "name": "$-$$$$",
+          "key": "price"
+        }
+      ]
     },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
+    "geocode": {
+      "what": "",
+      "where": "nyc",
+      "center": {
+        "lat": 40.742185,
+        "lng": -73.992602
       },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Brooklyn Bridge Park",
-    "location" : {
-      "address" : "Main St",
-      "crossStreet" : "Plymouth St",
-      "lat" : 40.702282,
-      "lng" : -73.996456,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.702282,
-        "lng" : -73.996456
-      } ],
-      "postalCode" : "11201",
-      "cc" : "US",
-      "city" : "Brooklyn",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Main St (Plymouth St)", "Brooklyn, NY 11201", "United States" ],
-      "neighborhood" : "DUMBO, Brooklyn, NY"
+      "displayString": "New York, NY, United States",
+      "cc": "US",
+      "geometry": {
+        "bounds": {
+          "ne": {
+            "lat": 40.882214,
+            "lng": -73.907
+          },
+          "sw": {
+            "lat": 40.679548,
+            "lng": -74.047285
+          }
+        }
+      },
+      "slug": "new-york-city-new-york",
+      "longId": "72057594043056517"
     },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
+    "headerLocation": "New York",
+    "headerFullLocation": "New York",
+    "headerLocationGranularity": "city",
+    "query": "food",
+    "totalResults": 247,
+    "suggestedBounds": {
+      "ne": {
+        "lat": 40.7831034735593,
+        "lng": -73.97921423771334
       },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Bryant Park",
-    "location" : {
-      "address" : "E 42nd St",
-      "crossStreet" : "btwn 5th & 6th Ave",
-      "lat" : 40.75378489598108,
-      "lng" : -73.98383223928617,
-      "labeledLatLngs" : null,
-      "postalCode" : "10018",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "E 42nd St (btwn 5th & 6th Ave)", "New York, NY 10018", "United States" ],
-      "neighborhood" : "Midtown"
+      "sw": {
+        "lat": 40.711208111891985,
+        "lng": -74.00790954942704
+      }
     },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Metropolitan Museum of Art",
-    "location" : {
-      "address" : "1000 5th Ave",
-      "crossStreet" : "btwn E 80th & E 84th St",
-      "lat" : 40.77972902126812,
-      "lng" : -73.96341562271118,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.77972902126812,
-        "lng" : -73.96341562271118
-      } ],
-      "postalCode" : "10028",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1000 5th Ave (btwn E 80th & E 84th St)", "New York, NY 10028", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d18f941735",
-      "name" : "Art Museum",
-      "pluralName" : "Art Museums",
-      "shortName" : "Art Museum",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Minskoff Theatre",
-    "location" : {
-      "address" : "1515 Broadway",
-      "crossStreet" : "at W 45th St",
-      "lat" : 40.75738906224092,
-      "lng" : -73.98553701970972,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.75738906224092,
-        "lng" : -73.98553701970972
-      } ],
-      "postalCode" : "10036",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1515 Broadway (at W 45th St)", "New York, NY 10036", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d137941735",
-      "name" : "Theater",
-      "pluralName" : "Theaters",
-      "shortName" : "Theater",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "High Line",
-    "location" : {
-      "address" : "btwn Gansevoort & W 34th St",
-      "crossStreet" : "btwn 10th & 12th Ave",
-      "lat" : 40.746825,
-      "lng" : -74.005507,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.746825,
-        "lng" : -74.005507
-      } ],
-      "postalCode" : "10011",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "btwn Gansevoort & W 34th St (btwn 10th & 12th Ave)", "New York, NY 10011", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Gantry Plaza State Park",
-    "location" : {
-      "address" : "474 48th Ave",
-      "crossStreet" : "at Center Blvd",
-      "lat" : 40.74655794031174,
-      "lng" : -73.9580512046814,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.74655794031174,
-        "lng" : -73.9580512046814
-      } ],
-      "postalCode" : "11109",
-      "cc" : "US",
-      "city" : "Queens",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "474 48th Ave (at Center Blvd)", "Long Island City, NY 11109", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "5bae9231bedf3950379f89d0",
-      "name" : "State / Provincial Park",
-      "pluralName" : "State / Provincial Parks",
-      "shortName" : "State / Provincial Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "St. Patrick's Cathedral",
-    "location" : {
-      "address" : "14 E 51st St",
-      "crossStreet" : "at 5th Ave",
-      "lat" : 40.7583584690861,
-      "lng" : -73.97582607482036,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.7583584690861,
-        "lng" : -73.97582607482036
-      } ],
-      "postalCode" : "10022",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "14 E 51st St (at 5th Ave)", "New York, NY 10022", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d132941735",
-      "name" : "Church",
-      "pluralName" : "Churches",
-      "shortName" : "Church",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/building/religious_church_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "West Side Highway Running Path",
-    "location" : {
-      "address" : "Hudson River Greenway",
-      "crossStreet" : "btwn Battery Park & W 72nd St",
-      "lat" : 40.73255155774,
-      "lng" : -74.01057958602905,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.73255155774,
-        "lng" : -74.01057958602905
-      } ],
-      "postalCode" : "10282",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Hudson River Greenway (btwn Battery Park & W 72nd St)", "New York, NY 10282", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d159941735",
-      "name" : "Trail",
-      "pluralName" : "Trails",
-      "shortName" : "Trail",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Equinox West 50th Street",
-    "location" : {
-      "address" : "1633 Broadway",
-      "crossStreet" : "at Paramount Plz",
-      "lat" : 40.761912,
-      "lng" : -73.984268,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.761912,
-        "lng" : -73.984268
-      } ],
-      "postalCode" : "10019",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1633 Broadway (at Paramount Plz)", "New York, NY 10019", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d176941735",
-      "name" : "Gym",
-      "pluralName" : "Gyms",
-      "shortName" : "Gym",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Hudson River Park",
-    "location" : {
-      "address" : "West St",
-      "crossStreet" : "btwn Battery Pl & W 59th St",
-      "lat" : 40.733227002381305,
-      "lng" : -74.0104541746021,
-      "labeledLatLngs" : null,
-      "postalCode" : "10011",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "West St (btwn Battery Pl & W 59th St)", "New York, NY 10011", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Aire Ancient Baths",
-    "location" : {
-      "address" : "88 Franklin St",
-      "crossStreet" : "at Church St",
-      "lat" : 40.718141411641234,
-      "lng" : -74.00494121234846,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.718141411641234,
-        "lng" : -74.00494121234846
-      } ],
-      "postalCode" : "10013",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "88 Franklin St (at Church St)", "New York, NY 10013", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d1ed941735",
-      "name" : "Spa",
-      "pluralName" : "Spas",
-      "shortName" : "Spa",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/spa_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Washington Square Park",
-    "location" : {
-      "address" : "W 4th St",
-      "crossStreet" : "btwn MacDougal St & University Pl",
-      "lat" : 40.73081579656163,
-      "lng" : -73.9974582195282,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.73081579656163,
-        "lng" : -73.9974582195282
-      } ],
-      "postalCode" : "10012",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "W 4th St (btwn MacDougal St & University Pl)", "New York, NY 10012", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Strand Bookstore",
-    "location" : {
-      "address" : "828 Broadway",
-      "crossStreet" : "at E 12th St",
-      "lat" : 40.73314000684355,
-      "lng" : -73.99091161094675,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.73314000684355,
-        "lng" : -73.99091161094675
-      } ],
-      "postalCode" : "10003",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "828 Broadway (at E 12th St)", "New York, NY 10003", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d114951735",
-      "name" : "Bookstore",
-      "pluralName" : "Bookstores",
-      "shortName" : "Bookstore",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/bookstore_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Brooklyn Bridge",
-    "location" : {
-      "address" : "Brooklyn Bridge",
-      "crossStreet" : null,
-      "lat" : 40.70596749893083,
-      "lng" : -73.99670720100403,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.70596749893083,
-        "lng" : -73.99670720100403
-      } ],
-      "postalCode" : "10038",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Brooklyn Bridge", "New York, NY 10038", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d1df941735",
-      "name" : "Bridge",
-      "pluralName" : "Bridges",
-      "shortName" : "Bridge",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Astor Wines & Spirits",
-    "location" : {
-      "address" : "399 Lafayette St",
-      "crossStreet" : "at E 4th St",
-      "lat" : 40.727984051970246,
-      "lng" : -73.99304720778368,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.727984051970246,
-        "lng" : -73.99304720778368
-      } ],
-      "postalCode" : "10003",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "399 Lafayette St (at E 4th St)", "New York, NY 10003", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d119951735",
-      "name" : "Wine Shop",
-      "pluralName" : "Wine Shops",
-      "shortName" : "Wine Shop",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_wineshop_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Conservatory Garden",
-    "location" : {
-      "address" : "1231 5th Ave",
-      "crossStreet" : "at 105th St",
-      "lat" : 40.793531,
-      "lng" : -73.952032,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.793531,
-        "lng" : -73.952032
-      } ],
-      "postalCode" : "10029",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1231 5th Ave (at 105th St)", "New York, NY 10029", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d15a941735",
-      "name" : "Garden",
-      "pluralName" : "Gardens",
-      "shortName" : "Garden",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Union Square Greenmarket",
-    "location" : {
-      "address" : "1 Union Sq W",
-      "crossStreet" : "btwn 15th & 17th St",
-      "lat" : 40.736421806907515,
-      "lng" : -73.9904435930639,
-      "labeledLatLngs" : null,
-      "postalCode" : "10003",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1 Union Sq W (btwn 15th & 17th St)", "New York, NY 10003", "United States" ],
-      "neighborhood" : "Union Square"
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d1fa941735",
-      "name" : "Farmers Market",
-      "pluralName" : "Farmers Markets",
-      "shortName" : "Farmer's Market",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_farmersmarket_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Lincoln Center for the Performing Arts",
-    "location" : {
-      "address" : "70 Lincoln Center Plz",
-      "crossStreet" : "btwn Columbus & 10th Ave",
-      "lat" : 40.772299740203685,
-      "lng" : -73.98314928265228,
-      "labeledLatLngs" : null,
-      "postalCode" : "10023",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "70 Lincoln Center Plz (btwn Columbus & 10th Ave)", "New York, NY 10023", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d1f2931735",
-      "name" : "Performing Arts Venue",
-      "pluralName" : "Performing Arts Venues",
-      "shortName" : "Performing Arts",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Murray's Cheese",
-    "location" : {
-      "address" : "254 Bleecker St",
-      "crossStreet" : "at Cornelia St",
-      "lat" : 40.73100494148146,
-      "lng" : -74.00291557226433,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.73100494148146,
-        "lng" : -74.00291557226433
-      } ],
-      "postalCode" : "10014",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "254 Bleecker St (at Cornelia St)", "New York, NY 10014", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d11e951735",
-      "name" : "Cheese Shop",
-      "pluralName" : "Cheese Shops",
-      "shortName" : "Cheese Shop",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/shops/food_cheese_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Madison Square Park",
-    "location" : {
-      "address" : "Madison Ave",
-      "crossStreet" : "btwn E 23rd & E 26th St",
-      "lat" : 40.74226204193276,
-      "lng" : -73.98800611495972,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.74226204193276,
-        "lng" : -73.98800611495972
-      } ],
-      "postalCode" : "10010",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Madison Ave (btwn E 23rd & E 26th St)", "New York, NY 10010", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Top of the Rock Observation Deck",
-    "location" : {
-      "address" : "30 Rockefeller Plz",
-      "crossStreet" : "btwn 5th & 6th Ave",
-      "lat" : 40.759095065214055,
-      "lng" : -73.97935153748539,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.759095065214055,
-        "lng" : -73.97935153748539
-      } ],
-      "postalCode" : "10112",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "30 Rockefeller Plz (btwn 5th & 6th Ave)", "New York, NY 10112", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d165941735",
-      "name" : "Scenic Lookout",
-      "pluralName" : "Scenic Lookouts",
-      "shortName" : "Scenic Lookout",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Riverside Park",
-    "location" : {
-      "address" : "Riverside Dr",
-      "crossStreet" : "btwn W 59th St & St. Clair Pl",
-      "lat" : 40.806809433439135,
-      "lng" : -73.96865129470825,
-      "labeledLatLngs" : null,
-      "postalCode" : "10025",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Riverside Dr (btwn W 59th St & St. Clair Pl)", "New York, NY 10025", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Metropolitan Opera",
-    "location" : {
-      "address" : "70 Lincoln Center Plz",
-      "crossStreet" : "at Columbus Ave & W 64th St",
-      "lat" : 40.77274188001071,
-      "lng" : -73.9844012260437,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.77274188001071,
-        "lng" : -73.9844012260437
-      } ],
-      "postalCode" : "10023",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "70 Lincoln Center Plz (at Columbus Ave & W 64th St)", "New York, NY 10023", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d136941735",
-      "name" : "Opera House",
-      "pluralName" : "Opera Houses",
-      "shortName" : "Opera House",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_operahouse_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "David H. Koch Theater",
-    "location" : {
-      "address" : "Lincoln Center Plaza",
-      "crossStreet" : "at W 63rd St & Columbus Ave",
-      "lat" : 40.772292228782284,
-      "lng" : -73.9832624208871,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.772292228782284,
-        "lng" : -73.9832624208871
-      } ],
-      "postalCode" : "10023",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "Lincoln Center Plaza (at W 63rd St & Columbus Ave)", "New York, NY 10023", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d137941735",
-      "name" : "Theater",
-      "pluralName" : "Theaters",
-      "shortName" : "Theater",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Radio City Music Hall",
-    "location" : {
-      "address" : "1260 Avenue of the Americas",
-      "crossStreet" : "at W 50th St",
-      "lat" : 40.75983498299141,
-      "lng" : -73.9800099465656,
-      "labeledLatLngs" : null,
-      "postalCode" : "10020",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1260 Avenue of the Americas (at W 50th St)", "New York, NY 10020", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "5032792091d4c4b30a586d5c",
-      "name" : "Concert Hall",
-      "pluralName" : "Concert Halls",
-      "shortName" : "Concert Hall",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Los Tacos No. 1",
-    "location" : {
-      "address" : "229 W 43rd St",
-      "crossStreet" : "btwn 7th & 8th Ave",
-      "lat" : 40.75713361630251,
-      "lng" : -73.98753586979832,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.75713361630251,
-        "lng" : -73.98753586979832
-      } ],
-      "postalCode" : "10036",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "229 W 43rd St (btwn 7th & 8th Ave)", "New York, NY 10036", "United States" ],
-      "neighborhood" : "Theater District"
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d151941735",
-      "name" : "Taco Place",
-      "pluralName" : "Taco Places",
-      "shortName" : "Tacos",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/food/taco_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Carl Schurz Park",
-    "location" : {
-      "address" : "599 E 86th St",
-      "crossStreet" : "at East End Ave",
-      "lat" : 40.77511823969361,
-      "lng" : -73.94376326618595,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.77511823969361,
-        "lng" : -73.94376326618595
-      } ],
-      "postalCode" : "10028",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "599 E 86th St (at East End Ave)", "New York, NY 10028", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "The Public Theater",
-    "location" : {
-      "address" : "425 Lafayette St",
-      "crossStreet" : "btwn Astor Pl & E 4th St",
-      "lat" : 40.72916880904384,
-      "lng" : -73.99207037967628,
-      "labeledLatLngs" : [ {
-        "label" : "display",
-        "lat" : 40.72916880904384,
-        "lng" : -73.99207037967628
-      } ],
-      "postalCode" : "10003",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "425 Lafayette St (btwn Astor Pl & E 4th St)", "New York, NY 10003", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d137941735",
-      "name" : "Theater",
-      "pluralName" : "Theaters",
-      "shortName" : "Theater",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  }, {
-    "name" : "Fort Tryon Park",
-    "location" : {
-      "address" : "1 Margaret Corbin Dr",
-      "crossStreet" : null,
-      "lat" : 40.86144880322704,
-      "lng" : -73.93299413788274,
-      "labeledLatLngs" : null,
-      "postalCode" : "10040",
-      "cc" : "US",
-      "city" : "New York",
-      "state" : "NY",
-      "country" : "United States",
-      "formattedAddress" : [ "1 Margaret Corbin Dr", "New York, NY 10040", "United States" ],
-      "neighborhood" : null
-    },
-    "categories" : [ {
-      "id" : "4bf58dd8d48988d163941735",
-      "name" : "Park",
-      "pluralName" : "Parks",
-      "shortName" : "Park",
-      "icon" : {
-        "prefix" : "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
-        "suffix" : ".png"
-      },
-      "primary" : true
-    } ],
-    "photos" : {
-      "count" : 0,
-      "groups" : [ ]
-    }
-  } ]
+    "groups": [
+      {
+        "type": "Recommended Places",
+        "name": "recommended",
+        "items": [
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "59580ce6db1d8148fee3d383",
+              "name": "Los Tacos No. 1",
+              "location": {
+                "address": "229 W 43rd St",
+                "crossStreet": "btwn 7th & 8th Ave",
+                "lat": 40.75713361630251,
+                "lng": -73.98753586979832,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.75713361630251,
+                    "lng": -73.98753586979832
+                  }
+                ],
+                "postalCode": "10036",
+                "cc": "US",
+                "neighborhood": "Theater District",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "229 W 43rd St (btwn 7th & 8th Ave)",
+                  "New York, NY 10036",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d151941735",
+                  "name": "Taco Place",
+                  "pluralName": "Taco Places",
+                  "shortName": "Tacos",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/taco_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-59580ce6db1d8148fee3d383-0"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "5196b9ff498e8a6be4336a03",
+              "name": "Los Tacos No.1",
+              "location": {
+                "address": "75 9th Ave",
+                "lat": 40.74224400629671,
+                "lng": -74.00596115738153,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.74224400629671,
+                    "lng": -74.00596115738153
+                  }
+                ],
+                "postalCode": "10011",
+                "cc": "US",
+                "neighborhood": "Chelsea",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "75 9th Ave",
+                  "New York, NY 10011",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d151941735",
+                  "name": "Taco Place",
+                  "pluralName": "Taco Places",
+                  "shortName": "Tacos",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/taco_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "58414469"
+              }
+            },
+            "referralId": "e-3-5196b9ff498e8a6be4336a03-1"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "57e9590a498e2d323e20c667",
+              "name": "Los Mariscos",
+              "location": {
+                "address": "409 West 15th St",
+                "crossStreet": "9th Ave",
+                "lat": 40.74199972810892,
+                "lng": -74.00589003225507,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.74199972810892,
+                    "lng": -74.00589003225507
+                  }
+                ],
+                "postalCode": "10011",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "409 West 15th St (9th Ave)",
+                  "New York, NY 10011",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1ce941735",
+                  "name": "Seafood Restaurant",
+                  "pluralName": "Seafood Restaurants",
+                  "shortName": "Seafood",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-57e9590a498e2d323e20c667-2"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4cc6222106c25481d7a4a047",
+              "name": "Rubirosa Ristorante",
+              "location": {
+                "address": "235 Mulberry St",
+                "crossStreet": "btwn Prince & Spring St",
+                "lat": 40.72270625453151,
+                "lng": -73.99595719792266,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.72270625453151,
+                    "lng": -73.99595719792266
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "235 Mulberry St (btwn Prince & Spring St)",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d110941735",
+                  "name": "Italian Restaurant",
+                  "pluralName": "Italian Restaurants",
+                  "shortName": "Italian",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/italian_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "39039277"
+              }
+            },
+            "referralId": "e-3-4cc6222106c25481d7a4a047-3"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "485f7eecf964a520da501fe3",
+              "name": "Levain Bakery",
+              "location": {
+                "address": "167 W 74th St",
+                "crossStreet": "at Amsterdam Ave",
+                "lat": 40.77983550257442,
+                "lng": -73.98051857006395,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.77983550257442,
+                    "lng": -73.98051857006395
+                  }
+                ],
+                "postalCode": "10023",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "167 W 74th St (at Amsterdam Ave)",
+                  "New York, NY 10023",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16a941735",
+                  "name": "Bakery",
+                  "pluralName": "Bakeries",
+                  "shortName": "Bakery",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "91988605"
+              }
+            },
+            "referralId": "e-3-485f7eecf964a520da501fe3-4"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "537b5258498e262a54b47216",
+              "name": "Arcade Bakery",
+              "location": {
+                "address": "220 Church St",
+                "crossStreet": "btwn Worth & Thomas St",
+                "lat": 40.71707213063327,
+                "lng": -74.00660521707641,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.71707213063327,
+                    "lng": -74.00660521707641
+                  }
+                ],
+                "postalCode": "10013",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "220 Church St (btwn Worth & Thomas St)",
+                  "New York, NY 10013",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16a941735",
+                  "name": "Bakery",
+                  "pluralName": "Bakeries",
+                  "shortName": "Bakery",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-537b5258498e262a54b47216-5"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "3fd66200f964a520aee91ee3",
+              "name": "Gramercy Tavern",
+              "location": {
+                "address": "42 E 20th St",
+                "crossStreet": "btwn Broadway & Park Ave",
+                "lat": 40.73859964402532,
+                "lng": -73.98831951156392,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.73859964402532,
+                    "lng": -73.98831951156392
+                  }
+                ],
+                "postalCode": "10003",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "42 E 20th St (btwn Broadway & Park Ave)",
+                  "New York, NY 10003",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d14e941735",
+                  "name": "American Restaurant",
+                  "pluralName": "American Restaurants",
+                  "shortName": "American",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "55111618"
+              }
+            },
+            "referralId": "e-3-3fd66200f964a520aee91ee3-6"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4a27289cf964a52062911fe3",
+              "name": "L'Artusi",
+              "location": {
+                "address": "228 W 10th St",
+                "crossStreet": "btwn Bleecker & Hudson St",
+                "lat": 40.733887817554255,
+                "lng": -74.00511448337453,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.733887817554255,
+                    "lng": -74.00511448337453
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "228 W 10th St (btwn Bleecker & Hudson St)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d110941735",
+                  "name": "Italian Restaurant",
+                  "pluralName": "Italian Restaurants",
+                  "shortName": "Italian",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/italian_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "38967587"
+              }
+            },
+            "referralId": "e-3-4a27289cf964a52062911fe3-7"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "5521c2ff498ebe2368634187",
+              "name": "Kiki's",
+              "location": {
+                "address": "130 Division St",
+                "crossStreet": "btwn Orchard & Ludlow St",
+                "lat": 40.714476082876864,
+                "lng": -73.99203609673215,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.714476082876864,
+                    "lng": -73.99203609673215
+                  }
+                ],
+                "postalCode": "10002",
+                "cc": "US",
+                "neighborhood": "Chinatown",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "130 Division St (btwn Orchard & Ludlow St)",
+                  "New York, NY 10002",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d10e941735",
+                  "name": "Greek Restaurant",
+                  "pluralName": "Greek Restaurants",
+                  "shortName": "Greek",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/greek_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "delivery": {
+                "id": "625337",
+                "url": "https:\/\/www.seamless.com\/menu\/kikis-130-division-st-new-york\/625337?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=625337",
+                "provider": {
+                  "name": "seamless",
+                  "icon": {
+                    "prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+                    "sizes": [
+                      40,
+                      50
+                    ],
+                    "name": "\/delivery_provider_seamless_20180129.png"
+                  }
+                }
+              },
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-5521c2ff498ebe2368634187-8"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "58ffe0c40802d407df4cb8ac",
+              "name": "Champion Pizza",
+              "location": {
+                "address": "Turnstyle",
+                "lat": 40.766749578578136,
+                "lng": -73.98283936874253,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.766749578578136,
+                    "lng": -73.98283936874253
+                  }
+                ],
+                "postalCode": "10019",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "Turnstyle",
+                  "New York, NY 10019",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1ca941735",
+                  "name": "Pizza Place",
+                  "pluralName": "Pizza Places",
+                  "shortName": "Pizza",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "delivery": {
+                "id": "445999",
+                "url": "https:\/\/www.seamless.com\/menu\/champion-pizza-1000-s-8th-ave-new-york\/445999?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=445999",
+                "provider": {
+                  "name": "seamless",
+                  "icon": {
+                    "prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+                    "sizes": [
+                      40,
+                      50
+                    ],
+                    "name": "\/delivery_provider_seamless_20180129.png"
+                  }
+                }
+              },
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "449074372"
+              }
+            },
+            "referralId": "e-3-58ffe0c40802d407df4cb8ac-9"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4a0babaaf964a52007751fe3",
+              "name": "Marea",
+              "location": {
+                "address": "240 Central Park S",
+                "crossStreet": "at 59th St & Broadway",
+                "lat": 40.7674524,
+                "lng": -73.9811142,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.7674524,
+                    "lng": -73.9811142
+                  }
+                ],
+                "postalCode": "10019",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "240 Central Park S (at 59th St & Broadway)",
+                  "New York, NY 10019",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1ce941735",
+                  "name": "Seafood Restaurant",
+                  "pluralName": "Seafood Restaurants",
+                  "shortName": "Seafood",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "76453311"
+              }
+            },
+            "referralId": "e-3-4a0babaaf964a52007751fe3-10"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "57c169e3498e784947e307aa",
+              "name": "Fish Cheeks",
+              "location": {
+                "address": "55 Bond St",
+                "crossStreet": "btwn Lafayette & Bowery St",
+                "lat": 40.725861003633504,
+                "lng": -73.99253343981425,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.725861003633504,
+                    "lng": -73.99253343981425
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "neighborhood": "NoHo",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "55 Bond St (btwn Lafayette & Bowery St)",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d149941735",
+                  "name": "Thai Restaurant",
+                  "pluralName": "Thai Restaurants",
+                  "shortName": "Thai",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/thai_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "delivery": {
+                "id": "371438",
+                "url": "https:\/\/www.seamless.com\/menu\/fish-cheeks-55-bond-st-new-york\/371438?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=371438",
+                "provider": {
+                  "name": "seamless",
+                  "icon": {
+                    "prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+                    "sizes": [
+                      40,
+                      50
+                    ],
+                    "name": "\/delivery_provider_seamless_20180129.png"
+                  }
+                }
+              },
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-57c169e3498e784947e307aa-11"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4d0bf7e3f29c236ac675bfe7",
+              "name": "Buvette",
+              "location": {
+                "address": "42 Grove St",
+                "crossStreet": "btwn Bedford & Bleecker St",
+                "lat": 40.732782202032624,
+                "lng": -74.00427521034509,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.732782202032624,
+                    "lng": -74.00427521034509
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "neighborhood": "West Village",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "42 Grove St (btwn Bedford & Bleecker St)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d10c941735",
+                  "name": "French Restaurant",
+                  "pluralName": "French Restaurants",
+                  "shortName": "French",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/french_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-4d0bf7e3f29c236ac675bfe7-12"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "58b8ed467220e661ddf34104",
+              "name": "KazuNori: The Original Hand Roll Bar",
+              "location": {
+                "address": "15 W 28th St",
+                "lat": 40.745156795853866,
+                "lng": -73.98821168140111,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.745156795853866,
+                    "lng": -73.98821168140111
+                  }
+                ],
+                "postalCode": "10001",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "15 W 28th St",
+                  "New York, NY 10001",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d111941735",
+                  "name": "Japanese Restaurant",
+                  "pluralName": "Japanese Restaurants",
+                  "shortName": "Japanese",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/japanese_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-58b8ed467220e661ddf34104-13"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "503fb6d4ebca66a84f029bd8",
+              "name": "Breads Bakery",
+              "location": {
+                "address": "18 E 16th St",
+                "crossStreet": "btwn Union Sq W & 5th Ave",
+                "lat": 40.73661,
+                "lng": -73.99181,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.73661,
+                    "lng": -73.99181
+                  }
+                ],
+                "postalCode": "10003",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "18 E 16th St (btwn Union Sq W & 5th Ave)",
+                  "New York, NY 10003",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16a941735",
+                  "name": "Bakery",
+                  "pluralName": "Bakeries",
+                  "shortName": "Bakery",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "46551282"
+              }
+            },
+            "referralId": "e-3-503fb6d4ebca66a84f029bd8-14"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4b998a8ff964a520098235e3",
+              "name": "ABC Kitchen",
+              "location": {
+                "address": "35 E 18th St",
+                "crossStreet": "btwn Broadway & Park Ave S",
+                "lat": 40.73765323362576,
+                "lng": -73.98965791686936,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.73765323362576,
+                    "lng": -73.98965791686936
+                  }
+                ],
+                "postalCode": "10003",
+                "cc": "US",
+                "neighborhood": "che",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "35 E 18th St (btwn Broadway & Park Ave S)",
+                  "New York, NY 10003",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d157941735",
+                  "name": "New American Restaurant",
+                  "pluralName": "New American Restaurants",
+                  "shortName": "New American",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/newamerican_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "51436434"
+              }
+            },
+            "referralId": "e-3-4b998a8ff964a520098235e3-15"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4e41f0822271a90466a0e967",
+              "name": "Upstate Craft Beer and Oyster Bar",
+              "location": {
+                "address": "95 1st Ave",
+                "crossStreet": "at 6th St",
+                "lat": 40.726331,
+                "lng": -73.986453,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.726331,
+                    "lng": -73.986453
+                  }
+                ],
+                "postalCode": "10003",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "95 1st Ave (at 6th St)",
+                  "New York, NY 10003",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1ce941735",
+                  "name": "Seafood Restaurant",
+                  "pluralName": "Seafood Restaurants",
+                  "shortName": "Seafood",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "54473090"
+              }
+            },
+            "referralId": "e-3-4e41f0822271a90466a0e967-16"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "59e0ee84f0ca95526b7fce9f",
+              "name": "CAVA",
+              "location": {
+                "address": "50 Spring St",
+                "lat": 40.72192791798716,
+                "lng": -73.99651188343245,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.72192791798716,
+                    "lng": -73.99651188343245
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "50 Spring St",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c0941735",
+                  "name": "Mediterranean Restaurant",
+                  "pluralName": "Mediterranean Restaurants",
+                  "shortName": "Mediterranean",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mediterranean_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-59e0ee84f0ca95526b7fce9f-17"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4a74a36af964a520fede1fe3",
+              "name": "Faicco's Italian Specialties",
+              "location": {
+                "address": "260 Bleecker St",
+                "crossStreet": "at Cornelia St",
+                "lat": 40.73111661087598,
+                "lng": -74.0030425786972,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.73111661087598,
+                    "lng": -74.0030425786972
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "260 Bleecker St (at Cornelia St)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c5941735",
+                  "name": "Sandwich Place",
+                  "pluralName": "Sandwich Places",
+                  "shortName": "Sandwiches",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/deli_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-4a74a36af964a520fede1fe3-18"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "543c7c63498e0a3393da47a2",
+              "name": "Via Carota",
+              "location": {
+                "address": "51 Grove St",
+                "lat": 40.73305214118735,
+                "lng": -74.00357299198289,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.73305214118735,
+                    "lng": -74.00357299198289
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "51 Grove St",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d110941735",
+                  "name": "Italian Restaurant",
+                  "pluralName": "Italian Restaurants",
+                  "shortName": "Italian",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/italian_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "120487912"
+              }
+            },
+            "referralId": "e-3-543c7c63498e0a3393da47a2-19"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "516863b1011ca6684e37a88f",
+              "name": "Uncle Boons",
+              "location": {
+                "address": "7 Spring St",
+                "crossStreet": "btwn Bowery & Elizabeth St",
+                "lat": 40.721199904425575,
+                "lng": -73.99446256625156,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.721199904425575,
+                    "lng": -73.99446256625156
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "7 Spring St (btwn Bowery & Elizabeth St)",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d149941735",
+                  "name": "Thai Restaurant",
+                  "pluralName": "Thai Restaurants",
+                  "shortName": "Thai",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/thai_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-516863b1011ca6684e37a88f-20"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "5890a1dc7ff1e4019025b42b",
+              "name": "Daily Provisions",
+              "location": {
+                "address": "103 East 19th Street",
+                "crossStreet": "Park Avenue South",
+                "lat": 40.7375512483829,
+                "lng": -73.98780135310709,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.7375512483829,
+                    "lng": -73.98780135310709
+                  }
+                ],
+                "postalCode": "10003",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "103 East 19th Street (Park Avenue South)",
+                  "New York, NY 10003",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "423510440"
+              }
+            },
+            "referralId": "e-3-5890a1dc7ff1e4019025b42b-21"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "585164b77220e62219c9aeb6",
+              "name": "4 Charles Prime Rib",
+              "location": {
+                "address": "4 Charles St",
+                "crossStreet": "Greenwich Ave",
+                "lat": 40.735219495923204,
+                "lng": -74.0006488188871,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.735219495923204,
+                    "lng": -74.0006488188871
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "4 Charles St (Greenwich Ave)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1cc941735",
+                  "name": "Steakhouse",
+                  "pluralName": "Steakhouses",
+                  "shortName": "Steakhouse",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/steakhouse_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-585164b77220e62219c9aeb6-22"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "45697387f964a520e53d1fe3",
+              "name": "Despaña",
+              "location": {
+                "address": "408 Broome St",
+                "crossStreet": "btwn Lafayette & Centre St",
+                "lat": 40.72114442373172,
+                "lng": -73.99796266127038,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.72114442373172,
+                    "lng": -73.99796266127038
+                  }
+                ],
+                "postalCode": "10013",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "408 Broome St (btwn Lafayette & Centre St)",
+                  "New York, NY 10013",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d150941735",
+                  "name": "Spanish Restaurant",
+                  "pluralName": "Spanish Restaurants",
+                  "shortName": "Spanish",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/spanish_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "41096708"
+              }
+            },
+            "referralId": "e-3-45697387f964a520e53d1fe3-23"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "543075b3498e283e38ad9dec",
+              "name": "Cotenna",
+              "location": {
+                "address": "21 Bedford St",
+                "crossStreet": "btwn Downing St and 6th Ave",
+                "lat": 40.729014,
+                "lng": -74.003539,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.729014,
+                    "lng": -74.003539
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "21 Bedford St (btwn Downing St and 6th Ave)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d110941735",
+                  "name": "Italian Restaurant",
+                  "pluralName": "Italian Restaurants",
+                  "shortName": "Italian",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/italian_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "delivery": {
+                "id": "421656",
+                "url": "https:\/\/www.seamless.com\/menu\/cotenna-21-bedford-st-new-york\/421656?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=421656",
+                "provider": {
+                  "name": "seamless",
+                  "icon": {
+                    "prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+                    "sizes": [
+                      40,
+                      50
+                    ],
+                    "name": "\/delivery_provider_seamless_20180129.png"
+                  }
+                }
+              },
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-543075b3498e283e38ad9dec-24"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4a78c865f964a52068e61fe3",
+              "name": "Joseph Leonard",
+              "location": {
+                "address": "170 Waverly Pl",
+                "crossStreet": "btwn Christopher & W 10th St",
+                "lat": 40.733681436202154,
+                "lng": -74.00176726868112,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.733681436202154,
+                    "lng": -74.00176726868112
+                  }
+                ],
+                "postalCode": "10014",
+                "cc": "US",
+                "neighborhood": "West Village",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "170 Waverly Pl (btwn Christopher & W 10th St)",
+                  "New York, NY 10014",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d157941735",
+                  "name": "New American Restaurant",
+                  "pluralName": "New American Restaurants",
+                  "shortName": "New American",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/newamerican_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "42203382"
+              }
+            },
+            "referralId": "e-3-4a78c865f964a52068e61fe3-25"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "41044980f964a520750b1fe3",
+              "name": "Cafe Mogador",
+              "location": {
+                "address": "101 Saint Marks Pl",
+                "crossStreet": "btwn 1st Ave & Avenue A",
+                "lat": 40.72727735358458,
+                "lng": -73.98450529800188,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.72727735358458,
+                    "lng": -73.98450529800188
+                  }
+                ],
+                "postalCode": "10009",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "101 Saint Marks Pl (btwn 1st Ave & Avenue A)",
+                  "New York, NY 10009",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c3941735",
+                  "name": "Moroccan Restaurant",
+                  "pluralName": "Moroccan Restaurants",
+                  "shortName": "Moroccan",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/moroccan_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              },
+              "venuePage": {
+                "id": "97401758"
+              }
+            },
+            "referralId": "e-3-41044980f964a520750b1fe3-26"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "5644c0cf498eda8d003cfa4b",
+              "name": "Court Street Grocers",
+              "location": {
+                "address": "540 Laguardia Pl",
+                "crossStreet": "btwn Bleecker & W 3rd St",
+                "lat": 40.728806,
+                "lng": -73.998471,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.728806,
+                    "lng": -73.998471
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "540 Laguardia Pl (btwn Bleecker & W 3rd St)",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c5941735",
+                  "name": "Sandwich Place",
+                  "pluralName": "Sandwich Places",
+                  "shortName": "Sandwiches",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/deli_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-5644c0cf498eda8d003cfa4b-27"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "45ac12d6f964a5205d411fe3",
+              "name": "Blue Ribbon Sushi",
+              "location": {
+                "address": "119 Sullivan St",
+                "crossStreet": "btwn Prince & Spring St",
+                "lat": 40.726161490315945,
+                "lng": -74.0026326791738,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.726161490315945,
+                    "lng": -74.0026326791738
+                  }
+                ],
+                "postalCode": "10012",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "119 Sullivan St (btwn Prince & Spring St)",
+                  "New York, NY 10012",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1d2941735",
+                  "name": "Sushi Restaurant",
+                  "pluralName": "Sushi Restaurants",
+                  "shortName": "Sushi",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/sushi_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-45ac12d6f964a5205d411fe3-28"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "568c0ce238fafac5f5ffe631",
+              "name": "Mah-Ze-Dahr Bakery",
+              "location": {
+                "address": "28 Greenwich Ave",
+                "crossStreet": "Charles Street",
+                "lat": 40.735117,
+                "lng": -74.000052,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 40.735117,
+                    "lng": -74.000052
+                  }
+                ],
+                "postalCode": "10011",
+                "cc": "US",
+                "city": "New York",
+                "state": "NY",
+                "country": "United States",
+                "formattedAddress": [
+                  "28 Greenwich Ave (Charles Street)",
+                  "New York, NY 10011",
+                  "United States"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16a941735",
+                  "name": "Bakery",
+                  "pluralName": "Bakeries",
+                  "shortName": "Bakery",
+                  "icon": {
+                    "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "photos": {
+                "count": 0,
+                "groups": []
+              }
+            },
+            "referralId": "e-3-568c0ce238fafac5f5ffe631-29"
+          }
+        ]
+      }
+    ]
+  }
 }
