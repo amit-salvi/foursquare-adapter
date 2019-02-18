@@ -4,6 +4,8 @@ import com.foursquare.adapter.exception.FoursquareException;
 import com.foursquare.adapter.model.*;
 import com.foursquare.adapter.service.FoursquareService;
 import com.foursquare.adapter.service.PropertyService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -28,6 +30,8 @@ public class RecommendedPlacesController {
     PropertyService propertyService;
 
     @RequestMapping(method = RequestMethod.GET, produces = { "application/json" }, path = "/{place}")
+    @HystrixCommand(fallbackMethod = "fallback", commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000")})
     public ResponseEntity getRecommendedPlaces(@PathVariable("place") String place, @RequestParam("category") String category)
             throws FoursquareException {
 
@@ -68,5 +72,9 @@ public class RecommendedPlacesController {
         Response response = new Response();
         response.setVenues(venues1);
         return response;
+    }
+
+    public ResponseEntity fallback(String place, String category) {
+        return new ResponseEntity("Service is temporarily unavailable. Please try again.", null, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

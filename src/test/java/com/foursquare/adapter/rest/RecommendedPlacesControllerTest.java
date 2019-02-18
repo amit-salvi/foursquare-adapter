@@ -72,6 +72,27 @@ public class RecommendedPlacesControllerTest {
     }
 
     @Test
+    public void testServiceCircuitBreaker() {
+        // given
+        given(controller.getRecommendedPlaces("london", "food"))
+                .willAnswer(invocationOnMock -> {
+                    ResponseEntity responseEntity = new ResponseEntity<>(jsonResponse(), HttpStatus.BAD_GATEWAY);
+                    try{
+                        Thread.sleep(11000);
+                    } catch (Exception e) {}
+                    return responseEntity;
+                });
+
+        // when
+        ResponseEntity response = restTemplate.getForEntity("/places/london?category=food", Response.class);
+
+        // then
+        assertNotNull(response);
+        assertEquals(response.getStatusCode().getReasonPhrase(), "Bad Gateway");
+        verify(controller, times(1)).getRecommendedPlaces("london", "food");
+    }
+
+    @Test
     public void testMockedPropertyService() {
         Assertions.assertNotNull(propertyService);
         Assertions.assertEquals("clientId", propertyService.getClientId());

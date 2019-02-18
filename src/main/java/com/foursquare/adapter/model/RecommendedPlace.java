@@ -1,6 +1,7 @@
 package com.foursquare.adapter.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import springfox.documentation.annotations.Cacheable;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RecommendedPlace {
