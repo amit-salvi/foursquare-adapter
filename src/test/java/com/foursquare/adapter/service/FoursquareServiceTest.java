@@ -32,7 +32,7 @@ public class FoursquareServiceTest {
         ObjectMapper objectMapper = new ObjectMapper();
         RecommendedPlace recommendedPlace = objectMapper.readValue(data, RecommendedPlace.class);
         Assertions.assertNotNull(recommendedPlace);
-        Assertions.assertEquals(recommendedPlace.getMeta().getCode(), 200);
+        Assertions.assertTrue(recommendedPlace.getMeta().getCode().equals(200));
 
         // check response object
         Assertions.assertNotNull(recommendedPlace.getResponse());
