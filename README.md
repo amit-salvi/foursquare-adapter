@@ -48,4 +48,4 @@ G:\Amit\UK\projects\foursquare-adapter>java -jar ./target/foursquare-adapter-1.0
 You can view the Swagger UI at `http://localhost:8080/swagger-ui.html`.
 
 ### Access /places API
-You can request for the recommended places at: `http://localhost:8080/places/london`
+You can request for the recommended places at: `http://localhost:8080/places/london?category=food`
